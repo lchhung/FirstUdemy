@@ -17,10 +17,10 @@ export default class App extends Component{
       return {
         places: prevState.places.concat({
           key: Math.random(), 
-          //name: placeName, // Store placeName in name property
+          name: placeName, // Store placeName in name property
           //image: placeImage // Load image from local folder
-          image: { // Load image from a website
-          uri: 'https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/72721_10151548638648331_530310441_n.jpg?_nc_cat=101&_nc_ht=scontent-dub4-1.xx&oh=ad61c49fd9816ae5982fb1842e061629&oe=5D4E26EA'
+          // Load image from a website
+          image: {uri: 'https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/72721_10151548638648331_530310441_n.jpg?_nc_cat=101&_nc_ht=scontent-dub4-1.xx&oh=ad61c49fd9816ae5982fb1842e061629&oe=5D4E26EA'
           }
         })
       };

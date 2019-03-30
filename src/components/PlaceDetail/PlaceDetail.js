@@ -38,12 +38,12 @@ const styles=StyleSheet.create({
     },
     placeImage:{
         width: '100%',
-        height: 200
+        height: 500
     },
     placeName:{
         fontWeight:'bold',
         textAlign:'center',
-        fontSize: 100,
+        fontSize: 50,
         color: 'black'
     }
 });
